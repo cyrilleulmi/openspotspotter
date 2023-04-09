@@ -1,0 +1,5 @@
+{"properties": [{
+  "name": "bot.token",
+  "type": "java.lang.String",
+  "description": "Token to communicate with the Telegram Bot API"
+}]}
