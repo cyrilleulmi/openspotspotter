@@ -1,5 +1,32 @@
-{"properties": [{
-  "name": "bot.token",
-  "type": "java.lang.String",
-  "description": "Token to communicate with the Telegram Bot API"
-}]}
+{"properties": [
+  {
+    "name": "bot.token",
+    "type": "java.lang.String",
+    "description": "Token to communicate with the Telegram Bot API"
+  },
+  {
+    "name": "bot.name",
+    "type": "java.lang.String",
+    "description": "A description for 'bot.name'"
+  },
+  {
+    "name": "eversport.baseurl",
+    "type": "java.lang.String",
+    "description": "Eversports base URL"
+  },
+  {
+    "name": "eversport.slot.path",
+    "type": "java.lang.String",
+    "description": "REST path to get the slots"
+  },
+  {
+    "name": "eversport.facility",
+    "type": "java.lang.String",
+    "description": "ID of the squash facility"
+  },
+  {
+    "name": "eversport.courts",
+    "type": "java.lang.String",
+    "description": "A description for 'eversport.courts'"
+  }
+]}
