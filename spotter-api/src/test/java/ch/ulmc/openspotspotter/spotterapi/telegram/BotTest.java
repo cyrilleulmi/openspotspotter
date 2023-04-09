@@ -23,4 +23,16 @@ public class BotTest {
         String botToken = testee.getBotToken();
         assertThat(botToken).isEqualTo("testtoken");
     }
+
+    @Test
+    void testGetBotUsername() {
+        String botUsername = testee.getBotUsername();
+        assertThat(botUsername).isNotNull();
+    }
+
+    @Test
+    void testUsernameSetCorrectly() {
+        String botUsername = testee.getBotUsername();
+        assertThat(botUsername).isEqualTo("testname");
+    }
 }

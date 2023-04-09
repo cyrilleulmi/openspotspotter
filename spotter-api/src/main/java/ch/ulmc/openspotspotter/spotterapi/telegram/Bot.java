@@ -10,16 +10,17 @@ public class Bot extends TelegramLongPollingBot {
     @Value("${bot.token}")
     private String token;
 
+    @Value("${bot.name}")
+    private String name;
+
     @Override
     public void onUpdateReceived(Update update) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'onUpdateReceived'");
+        System.out.println(update);
     }
 
     @Override
     public String getBotUsername() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getBotUsername'");   
+        return name;
     }
 
     @Override
